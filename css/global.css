@@ -119,7 +119,9 @@
 }
 
 /* Buttons and button hovers */
-
+.btn{
+  border-radius: 28px;
+}
 .dark-btn{
   background: #13183F;
 }

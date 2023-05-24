@@ -1,0 +1,32 @@
+/* Extra small devices (0px and up) */
+@media screen and (min-width: 0px) {
+  /* CSS rules for extra small devices */
+}
+
+/* Small devices (576px and up) */
+@media screen and (min-width: 576px) {
+  /* CSS rules for small devices */
+}
+
+/* Medium devices (768px and up) */
+@media screen and (min-width: 768px) {
+  /* CSS rules for medium devices */
+  picture > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Large devices (992px and up) */
+@media screen and (min-width: 992px) {
+}
+
+/* Extra large devices (1200px and up) */
+@media screen and (min-width: 1200px) {
+  /* CSS rules for extra large devices */
+}
+
+/* Extra-extra large devices (1400px and up) */
+@media screen and (min-width: 1400px) {
+  /* CSS rules for extra-extra large devices */
+}
