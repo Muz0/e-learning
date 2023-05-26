@@ -1,5 +1,7 @@
 /* design system */
-
+a {
+  text-decoration: none;
+}
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
 /* font-family: 'Plus Jakarta Sans', sans-serif; */
@@ -134,6 +136,9 @@
   background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 }
 
+.white-gradient{
+  background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+}
 .orange-pink-btn:hover{
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
 }

@@ -6,15 +6,23 @@
 /* Small devices (576px and up) */
 @media screen and (min-width: 576px) {
   /* CSS rules for small devices */
+  picture > img {
+    width: 100%;
+    height: auto;
+  }
+
+  #maximize-skill + div {
+    padding-top: 220px;
+  }
 }
 
 /* Medium devices (768px and up) */
 @media screen and (min-width: 768px) {
   /* CSS rules for medium devices */
-  picture > img {
-    width: 100%;
-    height: auto;
+  #maximize-skill{
+    padding-top: 220px;
   }
+
 }
 
 /* Large devices (992px and up) */

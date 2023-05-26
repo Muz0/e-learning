@@ -22,80 +22,209 @@
     <!-- User's CSS -->
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-
-    <style>
-      *{
-        border: 1px solid red;
-      }
-    </style>
   </head>
 
-  <body class="container-lg ps-md-5 pe-md-5">
-    <header class="d-flex justify-content-between pt-md-4 pt-2">
-      <div class="">
-        <a class="navy heading-S" href="#">skilled</a>
-      </div>
-      <div class="">
-        <button class="btn dark-btn text-white body-M">Get Started</button>
-      </div>
-    </header>
-
-    <main>
-      <section class="row">
-        <div class=" col-6 col-md-6 ">
-          <h1 class="heading-XL">Maximize skill, minimize budget</h1>
-          <p class="body-M">
-            Our modern courses across a range of in-demand skills will give you
-            the knowledge you need to live the life you want.
-          </p>
-          <button class="btn orange-pink-btn text-white body-M">
-            Get Started
-          </button>
+  <body class="white-gradient">
+    <div class="container-lg ps-md-5 pe-md-5">
+      <header class="row pt-2 pt-md-4">
+        <div class="col-6 col-md-6">
+          <a class="navy heading-S" href="#">skilled</a>
         </div>
-        <div class="col-6 col-md-6 ">
-          <picture>
-            <!-- Source for wider screens -->
-            <source srcset="./assets/image-hero-desktop.png, ./assets/image-hero-desktop@2x.png 2x" media="(min-width: 768px)">
-            
-            <!-- Source for medium-sized screens -->
-            <source srcset="./assets/image-hero-tablet.png, ./assets/image-hero-tablet@2x.png 2x" media="(min-width: 376px) and (max-width: 767px)">
-            
-            <!-- Source for small screens -->
-            <source srcset="./assets/image-hero-mobile.png, ./assets/image-hero-mobile@2x.png 2x" media="(max-width: 375px)">
-            
-            <!-- Default image if none of the sources match -->
-            <img src="./assets/image-hero-desktop.png" srcset="./assets/image-hero-desktop@2x.png 2x" alt="Responsive Image">
-          </picture>
-          
-          
+        <div class="col-6 col-md-6 d-flex justify-content-end">
+          <button class="btn dark-btn text-white body-M">Get Started</button>
         </div>
-        <!-- Main content section 1 -->
-      </section>
-      <section>
-        <!-- Main content section 2 -->
-      </section>
-    </main>
+      </header>
+      <main >
+        <section  class="row mb-5">
+          <div id="maximize-skill" class="col-6 col-md-6 pt-md-5">
+            <h1 class="heading-XL">Maximize skill, minimize budget</h1>
+            <p class="body-M">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+            <button class="btn orange-pink-btn text-white body-M">
+              Get Started
+            </button>
+          </div>
+          <div class="col-6 col-md-6">
+            <picture>
+              <!-- Source for wider screens -->
+              <source
+                srcset="
+                  ./assets/image-hero-desktop.png,
+                  ./assets/image-hero-desktop@2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
 
-    <aside>
-      <!-- Sidebar content goes here -->
-    </aside>
+              <!-- Source for medium-sized screens -->
+              <source
+                srcset="
+                  ./assets/image-hero-tablet.png,
+                  ./assets/image-hero-tablet@2x.png 2x
+                "
+                media="(min-width: 376px) and (max-width: 767px)"
+              />
 
-    <footer>
-      <!-- Footer content goes here -->
+              <!-- Source for small screens -->
+              <source
+                srcset="
+                  ./assets/image-hero-mobile.png,
+                  ./assets/image-hero-mobile@2x.png 2x
+                "
+                media="(max-width: 375px)"
+              />
+
+              <!-- Default image if none of the sources match -->
+              <img
+                src="./assets/image-hero-desktop.png"
+                srcset="./assets/image-hero-desktop@2x.png 2x"
+                alt="Responsive Image"
+              />
+            </picture>
+          </div>
+          <!-- Main content section 1 -->
+        </section>
+        <section class="row card-deck m-sm-2  ">
+          <div
+            class="col-md-4 col-sm-6 card gradient-orange-pink rounded-3 mb-3"
+          >
+            <div class="card-body">
+              <div class="card-text">
+                <p class="text-white heading-M">
+                  Check out our most popular courses!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 card rounded-3 mb-3">
+            <div class="card-body">
+              <div class="card-img">
+                <img src="./assets/icon-animation.svg" alt="SVG" />
+              </div>
+              <div class="card-text">
+                <p class="heading-M">Animation</p>
+                <p class="body-M">
+                  Learn the latest animation techniques to create stunning
+                  motion design and captivate your audience.
+                </p>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pink body-M"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 card rounded-3 mb-3">
+            <div class="card-img">
+              <img src="./assets/icon-design.svg" alt="SVG" />
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p class="heading-M">Design</p>
+                <p class="body-M">
+                  Create beautiful, usable interfaces to help shape the future
+                  of how the web looks.
+                </p>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pink body-M"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 card rounded-3 mb-3">
+            <div class="card-img">
+              <img src="./assets/icon-photography.svg" alt="SVG" />
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p class="heading-M">Photography</p>
+                <p class="body-M">
+                  Explore critical fundamentals like lighting, composition, and
+                  focus to capture exceptional photos.
+                </p>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pink body-M"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 card rounded-3 mb-3">
+            <div class="card-img">
+              <img src="./assets/icon-business.svg" alt="SVG" />
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p class="heading-M">Crypto</p>
+                <p class="body-M">
+                  All you need to know to get started investing in crypto. Go
+                  from beginner to advanced with this 54 hour course.
+                </p>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pink body-M"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 card rounded-3 mb-3">
+            <div class="card-img">
+              <img src="./assets/icon-business.svg" alt="SVG" />
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p class="heading-M">Business</p>
+                <p class="body-M">
+                  A step-by-step playbook to help you start, scale, and sustain
+                  your business without outside investment.
+                </p>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="pink body-M"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- 3*2 in desktop -->
+          <!-- 2*3 in tablet -->
+          <!-- 1*6 in mobile -->
+        </section>
+      </main>
+    </div>
+    <footer class="container-fluid navy-bg">
+      <div class="container-lg">
+        <div class="row p-2 p-md-4">
+          <div class="col-md-6 col-sm-12">
+            <a class="text-white heading-S" href="#">skilled</a>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex justify-content-end">
+            <button class="btn blue-pink-btn text-white body-M">
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
     </footer>
-    <!-- Maximize skill, minimize budget Our modern courses across a
-    range of in-demand skills will give you the knowledge you need to live the
-    life you want. Get Started Check out our most popular courses! Animation
-    Learn the latest animation techniques to create stunning motion design and
-    captivate your audience. Get Started Design Create beautiful, usable
-    interfaces to help shape the future of how the web looks. Get Started
-    Photography Explore critical fundamentals like lighting, composition, and
-    focus to capture exceptional photos. Get Started Crypto All you need to know
-    to get started investing in crypto. Go from beginner to advanced with this
-    54 hour course. Get Started Business A step-by-step playbook to help you
-    start, scale, and sustain your business without outside investment. Get
-    Started Get Started -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
